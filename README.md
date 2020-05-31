@@ -13,4 +13,4 @@ This is the folder with a locally run version of my Coursera final project - cha
 To run the program in [Docker](https://www.docker.com/get-started) a following commands should be executed in the project folder<br>
 `docker build -t fastapi_conda .`<br>
 `docker run -it -p 5000:5000 -v $PWD/files:/home -t fastapi_conda`<br>
-or if Docker-Compose is availabale, simply `docker-compose up` (`docker-compose down --rmi all --remove-orphans` to clean everything up).
+or if Docker-Compose is available, simply `docker-compose up` (`docker-compose down --rmi all --remove-orphans` to clean everything up).
