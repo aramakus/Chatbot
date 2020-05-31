@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', path='/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+    <link rel="shorcut icon" href="{{ url_for('static', path='/favicon.ico') }}"/> 
+    <title>Stackoverflow Chatbot</title>
+  </head>
+  <body>
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-md-8 col-sm-12 mx-auto">
+                <div class="h-100 justify-content-center">
+                    <div class="chat-container" style="overflow: auto; max-height: 80vh">
+                        <!-- chat messages -->
+                        <div class="chat-message col-md-5 offset-md-7 bot-message">
+                          Hello, how can I help you today?
+                        </div>
+                    </div>
+                    <form id="target">
+                       <input class="input" type="text" value="" placeholder="Enter message..." id="input_message"/>
+                       <input type="submit" hidden>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', path='/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static', path='/bootstrap.min.js')}}"></script>
+    <script src="{{ url_for('static', path='/custom.js')}}"></script>
+  </body>
+</html>

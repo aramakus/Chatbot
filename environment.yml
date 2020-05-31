@@ -1,0 +1,13 @@
+name: working
+channels:
+  - conda-forge
+  - jmcmurray
+dependencies:
+  - python=3.7.6
+  - uvicorn=0.11.3
+  - numpy=1.18.4
+  - scikit-learn=0.22.1
+  - pip
+  - pip:
+    - chatterbot==1.0.5
+    - git+https://github.com/gunthercox/chatterbot-corpus.git#egg=chatterbot-corpus

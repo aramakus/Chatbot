@@ -1,0 +1,5 @@
+files/chatbot/pickles/*
+files/chatbot/thread_embeddings_by_tags/*
+files/chatbot/word_embeddings/*
+files/chatbot/bot_database/*
+files/db.sqlite3

@@ -1,0 +1,6 @@
+===================================================================
+|         Welcome to the developement Docker container.           |
+|                                                                 |
+|         This container provides an environment                  |
+|         for running my projects.                                |
+===================================================================
