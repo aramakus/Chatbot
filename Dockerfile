@@ -23,4 +23,4 @@ SHELL ["conda", "run", "-n", "working", "/bin/bash", "-c"]
 RUN conda install -c conda-forge fastapi=0.55.0
 
 WORKDIR /home
-CMD ["conda", "run", "-n", "working", "uvicorn", "main:app", "--host=0.0.0.0", "--port=5000", "--reload"]
+CMD ["conda", "run", "-n", "working", "python", "main.py"]
