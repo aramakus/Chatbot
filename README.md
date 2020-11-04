@@ -1,6 +1,6 @@
 # Python conversational/goal oriented Chatbot
 
-This is the folder with a locally run version of my Coursera final project - chatbot and stackoverflow assistant. Original bot was deployed on AWS EC2. The bot supports a casual conversation, as well as a range of questions related to programming. The conversation may look something like this
+Goal-oriented chatbot that extracts software-related query from casual conversation and replies with a relevant link to stackoverflow. Original bot was deployed on AWS EC2. The bot supports a casual conversation, as well as a range of questions related to programming. The conversation may look something like this
 
 <p align="left">
 <img width=50% src="supplementary/sample_chat_small.png" alt="Featuretools" />
