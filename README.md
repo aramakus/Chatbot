@@ -17,7 +17,8 @@ To run the program using [Docker](https://www.docker.com/get-started) the follow
 
 The bot is available in browser at `0.0.0.0:5000`.
 
-The bot will download pre-trained files from AWS S3, which may take some time, depending on the speed of internet connection. The total size of the files is 930 Mb.
+The bot will download pre-trained files from Dropbox (moved from AWS S3), which may take some time, depending on the speed of internet connection. The total size of the files is 930 Mb.
+
 
 ### Under the Hood and room for improvements
 
