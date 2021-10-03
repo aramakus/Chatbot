@@ -58,7 +58,7 @@ class DialogueManager(object):
           "bot_database/" : ["db.sqlite3"]
         }
         # url to the public bucket with files
-        PATH = 'https://s3-management-console.s3-us-west-2.amazonaws.com'
+        PATH = 'https://www.dropbox.com/sh/i6o22btfty3apmy/AADjjLau0QsCLET0uofGTqxOa?dl=0'
         
         get_pickles(PATH, bucket_structure)
 
